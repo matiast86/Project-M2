@@ -1,0 +1,244 @@
+body {
+    background-color: #f0f0f0;
+}
+
+
+
+header {
+    background-color: #333;
+    padding: 20px 0;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+#logo img {
+    height: 50px;
+    width: auto;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 2em;
+    margin: 0;
+    padding: 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-size: 1em;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #ffa500;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
+    color: #333;
+}
+
+.container {
+
+    gap: 20px;
+    padding: 20px;
+    background-color: #fff;
+
+}
+
+/* Tarjetas de Películas */
+.filmCard {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+    width: 20rem;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    text-align: center;
+    text-decoration: none;
+
+}
+
+.filmCard a {
+    text-decoration: none;
+}
+
+.filmCard:hover {
+    transform: translateY(-10px);
+}
+
+.filmCard img {
+    width: 100%;
+    border-bottom: 1px solid #ddd;
+}
+
+.filmCard .info {
+    padding: 10px;
+    text-align: left;
+    /* Alinea a la izquierda la información */
+}
+
+.filmCard .info p {
+    margin: 5px 0;
+    color: #666;
+    font-size: 0.9em;
+}
+
+.filmCard h3,
+.filmCard .rating {
+    margin: 10px 0;
+    font-size: 1.2em;
+    color: #333;
+}
+
+/* Estilos About Me */
+
+#aboutMe {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#aboutMeTile {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.aboutMeContainer {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 20px;
+}
+
+.profilePic {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.personalInfo {
+    flex: 1;
+    min-width: 250px;
+}
+
+.personalInfo h2 {
+    margin-top: 0;
+    color: #333;
+}
+
+.personalInfo p {
+    margin: 5px 0;
+    color: #666;
+}
+
+.techIcons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+
+}
+
+.techIcon {
+    width: 50px;
+    height: auto;
+}
+
+/* Estilos para about the page */
+
+.aboutThePage {
+    max-width: 90%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.projectOverview {
+    margin-bottom: 20px;
+    color: #666;
+    text-align: justify;
+}
+
+.homeworkContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.homeworkCard {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.homeworkCard:hover {
+    transform: translateY(-5px);
+}
+
+.homeworkHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #f7f7f7;
+    border-bottom: 1px solid #ddd;
+    cursor: pointer;
+}
+
+.homeworkHeader h3 {
+    margin: 0;
+    font-size: 1.1em;
+    color: #333;
+}
+
+.toggleButton {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 0.9em;
+    transition: background-color 0.3s ease;
+}
+
+.toggleButton:hover {
+    background-color: #ffa500;
+}
+
+.homeworkDetails {
+    /* display: none; */
+    padding: 20px;
+    background-color: #fff;
+    color: #666;
+    font-size: 0.9em;
+}
+
+/* .homeworkCard.active .homeworkDetails {
+    display: block;
+} */

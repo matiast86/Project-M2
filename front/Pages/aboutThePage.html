@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <title>Proyecto de M2</title>
+  <link rel="Stylesheet" href="../Styles/styles.css">
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+    integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+    integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+    crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <header>
+    <nav class="nav">
+      <div id="logo">
+        <a href="../index.html">
+          <img src="../Sources/img/Clapperboard.jpeg" alt="Un logo">
+        </a>
+      </div>
+      <ul>
+        <li>
+          <a href="../index.html">Home</a>
+        </li>
+        <li>
+          <a href="aboutMe.html">About me</a>
+        </li>
+        <li>
+          <a href="#">About the page</a>
+        </li>
+        <li>
+          <a href="createMovie.html">Movie Creation Form</a>
+        </li>
+        <li>
+          <a href="https://www.imdb.com/" target="_blank" rel="noopener noreferrer">More info on films</a>
+
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <main class="aboutThePage">
+    <h1>About the Project</h1>
+    <section class="projectOverview">
+      <p>This project is part of Module 2 of the Full Stack Development program at <strong>Soy Henry</strong>.
+        Throughout this module, I have worked on 14 assignments (Homeworks) that have allowed me to develop and
+        consolidate my programming skills. Each assignment addresses different aspects and fundamental technologies for
+        a Full Stack developer.</p>
+    </section>
+    <section class="homeworkContainer">
+      <div class="accordion" id="accordionExample">
+
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingOne">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+              aria-expanded="true" aria-controls="collapseOne">
+              Homework 1: Full Stack Project
+            </button>
+          </h2>
+          <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+            data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <p>It consisted of creating the HTML and CSS structures of the site where information about film cards is
+                shown.</p>
+              <p>A JavaScript file was also created to obtain the information on the films through an array of objects
+                and display them on the main page.</p>
+              <p>I also made secondary pages with information about me and the project, along with a link to the IMDB
+                site.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingTwo">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+              Homework 2: AJAX
+            </button>
+          </h2>
+          <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+            data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <p>In this homework, jQuery and index.js were combined, and a function was implemented to make a GET
+                request, which retrieves a JSON with information on the films.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingThree">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+              Homework 3: CSS Frameworks
+            </button>
+          </h2>
+          <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+            data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <p>Bootstrap was added to the project, and the card container was edited to organize it in a simpler way.
+                Bootstrap elements were also added to the static pages.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingFour">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+              Homework 4: NODE
+            </button>
+          </h2>
+          <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
+            data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <p>The "front" app was modularized, and Webpack was added as a devDependency to compile all the modules
+                into a single "bundle.js," which was injected into the index.html.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingFive">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+              Homework 5: Advanced Testing
+            </button>
+          </h2>
+          <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive"
+            data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <p>To practice TDD testing with Jest, I developed different tests for a class called "carritoCompras"
+                which included various methods. First, unit tests were created, followed by the development of the class
+                methods based on these tests.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingSix">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+              Homework 6: Asynchronism
+            </button>
+          </h2>
+          <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix"
+            data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <p>The Axios library was installed, and potential outcomes were handled properly using async/await and
+                try/catch blocks.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingSeven">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+              Homework 7: Express
+            </button>
+          </h2>
+          <div id="collapseSeven" class="accordion-collapse collapse" aria-labelledby="headingSeven"
+            data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <p>Nodemon was installed as a devDependency and Express as a regular dependency. A folder structure was
+                created to work with, including the "src" folder and inside it the "controllers", "services", and
+                "routes" folders. The modules "index.js" and "server.js" were also created in their respective folders.
+                The package.json was configured to run "nodemon" with "start".</p>
+              <p>Express was then required, and the "app" object was created in server.js and exported to index.js,
+                which executes the "listen" method with its corresponding arguments.</p>
+              <p>Finally, the necessary elements were implemented to wait for a GET request and, when received, execute
+                the corresponding controller.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingEight">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
+              Homework 8: Express 2
+            </button>
+          </h2>
+          <div id="collapseEight" class="accordion-collapse collapse" aria-labelledby="headingEight"
+            data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <p>The dependencies "morgan" and "cors" were installed. The necessary configurations were made to route
+                the requests through morgan, cors, and json middlewares. The "services" module was implemented, and the
+                Movies class was developed to create the array of movies. The service then returns the array with the
+                original films from the previous server.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingNine">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#collapseNine" aria-expanded="false" aria-controls="collapseNine">
+              Homework 9: Database Fundamentals
+            </button>
+          </h2>
+          <div id="collapseNine" class="accordion-collapse collapse" aria-labelledby="headingNine"
+            data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <p>In an Excel sheet, a table with three movies was created. Each column represents a property, and
+                different tables were included to represent different "entities". These entities were then related to
+                the movie table.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingTen">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#collapseTen" aria-expanded="false" aria-controls="collapseTen">
+              Homework 10: MongoDB
+            </button>
+          </h2>
+          <div id="collapseTen" class="accordion-collapse collapse" aria-labelledby="headingTen"
+            data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <p>An account was created in MongoDB, and a cluster for the "movies" database with a collection named
+                "movies" was set up. The three movies were copied and loaded as documents in the collection with all
+                their properties. MongoDB Compass was also downloaded.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingEleven">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#collapseEleven" aria-expanded="false" aria-controls="collapseEleven">
+              Homework 11: Mongoose
+            </button>
+          </h2>
+          <div id="collapseEleven" class="accordion-collapse collapse" aria-labelledby="headingEleven"
+            data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <p>The dependency "mongoose" was installed, and the connection to the database was set up. A schema for
+                movies was also created, exported, and required in the services module using the "find()" method to get
+                the movies, ensuring the response from the controller includes the actual data from the database.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingTwelve">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#collapseTwelve" aria-expanded="false" aria-controls="collapseTwelve">
+              Homework 12: Mongoose 2
+            </button>
+          </h2>
+          <div id="collapseTwelve" class="accordion-collapse collapse" aria-labelledby="headingTwelve"
+            data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <p>A POST path was created along with the necessary functions to create new films in the database. An HTML
+                page was set up with a form for inputs. A custom middleware was also created to validate all inputs from
+                the form.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingThirteen">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#collapseThirteen" aria-expanded="false" aria-controls="collapseThirteen">
+              Homework 13: Advanced Backend
+            </button>
+          </h2>
+          <div id="collapseThirteen" class="accordion-collapse collapse" aria-labelledby="headingThirteen"
+            data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <p>A "clear fields" button was added to the form along with functions to obtain the information from the
+                form.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingFourteen">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#collapseFourteen" aria-expanded="false" aria-controls="collapseFourteen">
+              Homework 14: Advanced JavaScript
+            </button>
+          </h2>
+          <div id="collapseFourteen" class="accordion-collapse collapse" aria-labelledby="headingFourteen"
+            data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <p>This was the final project. The necessary routes and logic were implemented with Express and integrated
+                with the POST method on the front-end app. When the form information is submitted, the movie is created
+                in the database. Now, new films can be created and displayed on the main page.</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+
+
+
+    <script src="../Scripts/index.js"></script>
+</body>
+
+</html>
